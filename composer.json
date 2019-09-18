@@ -23,5 +23,5 @@
         "psr-4": {
             "daxter1987\\AmazonS3Helper\\": "src/"
         }
-    },
+    }
 }
