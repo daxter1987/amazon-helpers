@@ -15,7 +15,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "daxter1987\\AmazonS3Helper\\AmazonS3Helper"
+                "daxter1987\\AmazonS3Helper\\AmazonS3HelperProvider"
             ]
         }
     },
