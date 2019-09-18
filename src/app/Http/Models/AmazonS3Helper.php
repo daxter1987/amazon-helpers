@@ -1,6 +1,6 @@
 <?php
 
-namespace daxter1987\AmazonS3Helper;
+namespace daxter1987\AmazonHelpers;
 
 use Aws\S3\S3Client;
 

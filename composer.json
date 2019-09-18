@@ -1,6 +1,6 @@
 {
-    "name": "daxter1987/amazon-s3-helper",
-    "description": "A helper class to simplify storing in an amazon s3 bucket",
+    "name": "daxter1987/amazon-helpers",
+    "description": "A helper class to simplify aws operations",
     "license": "MIT",
     "authors": [
         {
@@ -15,13 +15,13 @@
     "extra": {
         "laravel": {
             "providers": [
-                "daxter1987\\AmazonS3Helper\\AmazonS3HelperProvider"
+                "daxter1987\\AmazonHelpers\\AmazonHelpersProvider"
             ]
         }
     },
     "autoload": {
         "psr-4": {
-            "daxter1987\\AmazonS3Helper\\": "src/"
+            "daxter1987\\AmazonHelpers\\": "src/"
         }
     }
 }
