@@ -1,0 +1,27 @@
+{
+    "name": "daxter1987/AmazonS3Helper",
+    "description": "A helper class to simplify storing in an amazon s3 bucket",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "daxterbels",
+            "email": "daxter1987@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "aws/aws-sdk-php": "^3.112"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "daxter1987\\AmazonS3Helper\\AmazonS3Helper"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "daxter1987\\AmazonS3Helper\\": "src/"
+        }
+    },
+}
