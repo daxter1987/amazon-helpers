@@ -1,5 +1,5 @@
 {
-    "name": "daxter1987/AmazonS3Helper",
+    "name": "daxter1987/amazon-s3-helper",
     "description": "A helper class to simplify storing in an amazon s3 bucket",
     "license": "MIT",
     "authors": [
