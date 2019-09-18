@@ -7,9 +7,6 @@ class AmazonS3HelperProvider extends ServiceProvider {
 
     public function boot()
     {
-        $this->commands([
-            Commands\ConfigureComposer::class,
-        ]);
     }
 
     public function register()
