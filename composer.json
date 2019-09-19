@@ -8,7 +8,6 @@
             "email": "daxter1987@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "aws/aws-sdk-php": "^3.112"
     },
@@ -23,5 +22,8 @@
         "psr-4": {
             "daxter1987\\AmazonHelpers\\": "src/"
         }
+    },
+    "config": {
+        "preferred-install": "dist"
     }
 }
