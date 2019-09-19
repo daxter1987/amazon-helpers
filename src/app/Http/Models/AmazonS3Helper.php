@@ -6,6 +6,7 @@ use Aws\S3\S3Client;
 
 class AmazonS3Helper{
     public static function UploadtoS3($file_contents, $name, $file_type){
+        //adding a test comment
         $s3 = S3Client::factory(
             array(
                 'credentials' => array(
